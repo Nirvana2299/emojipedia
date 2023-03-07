@@ -1,0 +1,105 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.666;
+  background: linear-gradient(
+    59deg,
+    rgba(229, 93, 135, 1) 12%,
+    rgba(95, 195, 228, 1) 83%
+  );
+  color: #555;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 4rem;
+  color: #000;
+  line-height: 1.2;
+}
+
+h1 span {
+  padding: 5px 15px;
+  background: linear-gradient(
+    59deg,
+    rgba(60, 178, 215, 1) 7%,
+    rgba(44, 220, 255, 1) 59%
+  );
+  border-radius: 30px;
+}
+
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem auto;
+  max-width: 90%;
+}
+
+.dictionary > .term {
+  text-align: center;
+  max-width: 20rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 25px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    59deg,
+    rgba(151, 150, 240, 1) 12%,
+    rgba(44, 220, 255, 1) 83%
+  );
+
+  transition: all 100ms ease-in-out;
+}
+
+.dictionary > .term > dt {
+  margin-bottom: 1rem;
+}
+
+dt {
+  color: #000;
+  line-height: 1;
+}
+
+dt span {
+  font-size: 200%;
+  font-weight: 900;
+}
+
+.emoji {
+  margin: 0 auto 20px;
+  display: block;
+  font-size: 400%;
+}
+
+dd {
+  font-size: 92.5%;
+  margin-left: 0;
+}
+
+dd dt {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+dd dl {
+  font-size: 90%;
+  margin: 1rem auto 0 auto;
+  letter-spacing: 0.33px;
+  max-width: 15rem;
+}
+
+dd dl .term {
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  color: #c0c0c0;
+}
